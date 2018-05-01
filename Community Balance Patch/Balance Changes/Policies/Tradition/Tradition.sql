@@ -155,10 +155,6 @@ VALUES
 	('POLICY_LANDED_ELITE', 'YIELD_GOLDEN_AGE_POINTS', 50),
 	('POLICY_LANDED_ELITE', 'YIELD_CULTURE', 50);
 
-<<<<<<< HEAD
-=======
---Note:Let's not use AllCityFreeBuilding here since this is only for capital, AllCityFreeBuilding might confuse someone that the intent is to add it to all cities
->>>>>>> origin/master
 INSERT INTO Policy_FreeBuilding
 			(PolicyType,			BuildingClassType,				Count)
 VALUES		('POLICY_ARISTOCRACY',	'BUILDINGCLASS_CAPITAL_ENGINEER',	1),
@@ -187,7 +183,7 @@ VALUES
 INSERT INTO Policy_CapitalYieldChanges
 	(PolicyType, YieldType, Yield)
 VALUES
-	('POLICY_TRADITION', 'YIELD_FOOD', 2),
+	('POLICY_TRADITION', 'YIELD_FOOD', 3),
 	('POLICY_ARISTOCRACY', 'YIELD_FOOD', 1),
 	('POLICY_OLIGARCHY', 'YIELD_FOOD', 1),
 	('POLICY_LANDED_ELITE', 'YIELD_FOOD', 1),
@@ -211,7 +207,7 @@ INSERT INTO Building_YieldChanges
 	(BuildingType, YieldType, Yield)
 VALUES
 	('BUILDING_PALACE_TREASURY', 'YIELD_GOLD', 4),
-	('BUILDING_PALACE_GARDEN', 'YIELD_FOOD', 4),
+	('BUILDING_PALACE_GARDEN', 'YIELD_FOOD', 5),
 	('BUILDING_CAPITAL_ENGINEER', 'YIELD_PRODUCTION', 3),
 	('BUILDING_PALACE_COURT_CHAPEL', 'YIELD_FAITH', 3),
 	('BUILDING_PALACE_ASTROLOGER', 'YIELD_SCIENCE', 3);
